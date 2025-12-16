@@ -102,3 +102,9 @@ Built on the fundamental Query-Key-Value attention mechanism that powers transfo
 
 **QKV Core - Where Query, Key, and Value Create Intelligence** 🚀
 
+
+<br>
+<hr>
+<div align="right">
+  <sub>Built with ❤️ for the Open Source AI Community by <a href="https://github.com/broxytr">Hüseyin Kama</a></sub>
+</div>
