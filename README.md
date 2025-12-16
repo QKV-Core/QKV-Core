@@ -73,6 +73,15 @@ python debug_chat.py
 - **[GGUF_INSTALL.md](GGUF_INSTALL.md)**: GGUF model installation guide
 - **[docs/RESEARCH_IMPLEMENTATIONS.md](docs/RESEARCH_IMPLEMENTATIONS.md)**: Research paper implementations
 
+## 📰 In the Media & Articles
+
+> Read the engineering story behind QKV Core:
+
+* [**Part 1: Breaking the 4GB VRAM Barrier**](https://medium.com/@broxytr/qkv-core-series-part-1-0ca4fa89bfd1) - *How I ran 7B LLMs on a GTX 1050 without crashing.*
+* **Part 2: Inside the Architecture** - *(Coming Soon)*
+
+[![Read on Medium](https://img.shields.io/badge/Medium-Read%20the%20Series-black?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@broxytr/qkv-core-series-part-1-0ca4fa89bfd1)
+
 ## 🏗️ Project Structure
 
 ```
