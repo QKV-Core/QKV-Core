@@ -695,20 +695,20 @@ class TestMultiHeadAttention:
     """Test suite for MultiHeadAttention module."""
     
     def test_output_shape(self):
-        """Test that MHA returns correct output shape."""
-        batch_size = 2
-        seq_len = 10
-        d_model = 512
+    """Test that MHA returns correct output shape."""
+    batch_size = 2
+    seq_len = 10
+    d_model = 512
         num_heads = 8
-        
+    
         attention = MultiHeadAttention(d_model, num_heads)
-        query = torch.randn(batch_size, seq_len, d_model)
-        key = torch.randn(batch_size, seq_len, d_model)
-        value = torch.randn(batch_size, seq_len, d_model)
-        
-        output, weights = attention(query, key, value)
-        
-        assert output.shape == (batch_size, seq_len, d_model)
+    query = torch.randn(batch_size, seq_len, d_model)
+    key = torch.randn(batch_size, seq_len, d_model)
+    value = torch.randn(batch_size, seq_len, d_model)
+    
+    output, weights = attention(query, key, value)
+    
+    assert output.shape == (batch_size, seq_len, d_model)
         assert weights.shape == (batch_size, num_heads, seq_len, seq_len)
     
     def test_attention_weights_sum_to_one(self):

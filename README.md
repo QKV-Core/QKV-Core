@@ -28,7 +28,7 @@ A comprehensive framework for training, fine-tuning, and deploying Large Languag
 
 ```bash
 # Clone the repository
-git clone https://github.com/QKV-Core/QKV-Core.git
+git clone https://github.com/YOUR_USERNAME/QKV-Core.git
 cd QKV-Core
 
 # Create virtual environment
