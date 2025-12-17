@@ -1,9 +1,23 @@
-# QKV Core
+# QKV Core: Breaking the 4GB VRAM Barrier 🚀
 
-**Query-Key-Value Core - The Core of Transformer Intelligence**
+> **Run modern 7B LLMs (like Qwen 2.5, Llama 3) on legacy 4GB GPUs (GTX 1050/1650) without crashing.**
 
-A comprehensive framework for training, fine-tuning, and deploying Large Language Models (LLMs) built on the fundamental Query-Key-Value attention mechanism that powers modern transformer architectures.
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![Status](https://img.shields.io/badge/Status-Experimental-orange)
+[![Medium](https://img.shields.io/badge/Medium-Read%20the%20Series-black?style=flat&logo=medium&logoColor=white)](https://medium.com/@broxytr/qkv-core-series-part-1-0ca4fa89bfd1)
 
+## 📰 In the Media & Articles
+
+> Read the engineering story behind QKV Core:
+
+* [**Part 1: Breaking the 4GB VRAM Barrier**](https://medium.com/@broxytr/qkv-core-series-part-1-0ca4fa89bfd1) - *How I ran 7B LLMs on a GTX 1050 without crashing.*
+* **Part 2: Inside the Architecture** - *(Coming Soon)*
+
+## 🧐 The Problem: It's Not Size, It's Fragmentation
+
+Millions of developers are stuck on "GPU Poor" hardware like the **NVIDIA GTX 1050 (4GB)**.
+When you try to load a standard quantized 7B model (e.g., Q4_K_M ~4.3GB or even smaller), you often hit the "OOM Cliff":
 ## 🚀 Features
 
 - **Transformer Architecture**: Full implementation of GPT-style transformer models
@@ -72,15 +86,6 @@ python debug_chat.py
 - **[CONTRIBUTING.md](CONTRIBUTING.md)**: Comprehensive contribution guidelines
 - **[GGUF_INSTALL.md](GGUF_INSTALL.md)**: GGUF model installation guide
 - **[docs/RESEARCH_IMPLEMENTATIONS.md](docs/RESEARCH_IMPLEMENTATIONS.md)**: Research paper implementations
-
-## 📰 In the Media & Articles
-
-> Read the engineering story behind QKV Core:
-
-* [**Part 1: Breaking the 4GB VRAM Barrier**](https://medium.com/@broxytr/qkv-core-series-part-1-0ca4fa89bfd1) - *How I ran 7B LLMs on a GTX 1050 without crashing.*
-* **Part 2: Inside the Architecture** - *(Coming Soon)*
-
-[![Read on Medium](https://img.shields.io/badge/Medium-Read%20the%20Series-black?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@broxytr/qkv-core-series-part-1-0ca4fa89bfd1)
 
 ## 🏗️ Project Structure
 
